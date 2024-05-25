@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoronaVirus-Information</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Oswald&family=Righteous&display=swap');
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        nav {
+            padding: 0 23px;
+            background-color: black;
+        }
+
+        nav ul{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            /* flex-wrap: nowrap; */
+            /* grid-template-columns: repeat(5, max-content); */
+        }
+
+        nav .item {
+            list-style: none;
+            padding: 3px 0px;
+        }
+
+        .item a {
+            font-family: 'Oswald', sans-serif;
+            text-decoration: none;
+            padding: 9px 16px;
+            display: block;
+            font-size: 15px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .item a:hover {
+            background-color: white;
+            color: black;
+            border-radius: 10px;
+        }
+
+        .container {
+            opacity: 0.6;
+            background-color: white;
+            padding: 14px;
+            margin: 12px 8px;
+            border: 2px solid white;
+            border-radius: 12px;
+        }
+
+        body {
+            background: url("bg.jpg") center;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        h1,
+        h2 {
+            font-family: 'Righteous', cursive;
+            padding: 23px 0;
+        }
+
+        p,
+        .box ul,
+        .box li {
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+
+        h3 {
+            font-family: 'Righteous', cursive;
+            font-weight: lighter;
+            padding: 0 0 18px 0;
+        }
+
+        .box {
+            margin: 23px;
+        }
+
+        .question {
+            margin: 12px 0;
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+
+        @media screen and (min-width: 470px){
+            nav ul{
+                flex-direction: row;
+                text-align: center;
+            }
+            .container {
+                max-width: 69%;
+                margin: 12px auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="item"><a href="/">Home</a></li>
+            <li class="item"><a href="/">About</a></li>
+            <li class="item"><a href="/">MHFW Website</a></li>
+            <li class="item"><a href="/">Hospitals</a></li>
+            <li class="item"><a href="/">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Covid-19 - Stay Home Stay Safe</h1>
+        <div>
+            <h2>#IndiaFightCorona COVID-19</h2>
+            <p>Most people infected with the virus will experience mild to moderate respiratory illness and recover
+                without requiring special treatment. However, some will become seriously ill and require medical
+                attention. Older people and those with underlying medical conditions like cardiovascular disease,
+                diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. Anyone can
+                get sick with COVID-19 and become seriously ill or die at any age.
+            </p>
+        </div>
+
+        <div class="box">
+            <h2>#StayHome - How to Protect Yourself and Others</h2>
+            <h3>* Wash your hands</h3>
+            <p>Practicing good hygiene is an important habit that helps prevent the spread of COVID-19. Make these CDC
+                recommendations part of your routine:
+                <ul>
+                    <li>Wash your hands often with soap and water for at least 20 seconds, especially after you have
+                        been in a public place, or after blowing your nose, coughing, or sneezing.</li>
+                    <li>It’s especially important to wash:
+                        <ul>
+                            <li>Before eating or preparing food</li>
+                            <li>Before touching your face</li>
+                            <li>After using the restroom</li>
+                            <li>After leaving a public place</li>
+                            <li>After blowing your nose, coughing, or sneezing</li>
+                            <li>After handling your mask</li>
+                            <li>After changing a diaper</li>
+                            <li>After caring for someone who’s sick</li>
+                            <li>After touching animals or pets</li>
+                        </ul>
+                    </li>
+                    <li>If soap and water are not readily available, use a hand sanitizer that contains at least 60%
+                        alcohol. Cover all surfaces of your hands with the sanitizer and rub them together until they
+                        feel dry.</li>
+                    <li>Avoid touching your eyes, nose, and mouth with unwashed hands.</li>
+                </ul>
+            </p>
+        </div>
+
+        <div class="box">
+            <h3>* Wear a mask</h3>
+            <p>Face masks have become essential accessories in protecting yourself and others from contracting COVID-19.
+                The CDC recommends that people wear face coverings in public settings, especially since studies have
+                shown that individuals with the novel coronavirus could be asymptomatic or presymptomatic. (Face masks,
+                however, do not replace social distancing recommendations.)</p>
+            <p>“Face masks are designed to provide a barrier between your airway and the outside world,” says Dr. Ole
+                Vielemeyer, medical director of Weill Cornell ID Associates and Travel Medicine in the Division of
+                Infectious Diseases at NewYork-Presbyterian/Weill Cornell Medical Center and Weill Cornell Medicine. “By
+                wearing a mask that covers your mouth and nose, you will reduce the risk of serving as the source of
+                disease spread by trapping your own droplets in the mask, and also reduce the risk of getting sick via
+                droplets that contain the coronavirus by blocking access to your own airways.”</p>
+        </div>
+
+        <div class="box">
+            <h2>#FAQs - Frequently asked questions</h2>
+            <div class="question">
+                <p>
+                    Q:What is COVID-19?
+                </p>
+                <p>
+                    A: COVID-19 is an infectious respiratory illness caused by a coronavirus called SARS-CoV-2. ‘CO’
+                    stands for corona, ‘VI’ for virus, and ‘D’ for disease.
+                </p>
+            </div>
+            <div class="question">
+                <p>
+                    Q: What are the symptoms of COVID-19?
+                </p>
+                <p>
+                    A: Many COVID-19 symptoms are similar to those of the flu, the common cold and other conditions, so
+                    a test is required to confirm if someone has COVID-19. Symptoms may appear 2 to 14 days after
+                    exposure to the virus and can range from very mild to severe illness. Some people who have been
+                    infected don’t have any symptoms.
+                </p>
+            </div>
+            <div class="question">
+                <p>
+                    Q: How does the COVID-19 virus spread?
+                </p>
+                <p>
+                    A: The virus can spread from an infected person’s mouth or nose in small droplets when they cough,
+                    sneeze, speak, sing or breathe. These particles can range in size from larger respiratory droplets
+                    to smaller aerosols, and people can be contagious whether or not they are displaying symptoms.
+                </p>
+            </div>
+            <div class="question">
+                <p>
+                    Q: Are the COVID-19 vaccines safe and effective?
+                </p>
+                <p>
+                    A: Yes, even though COVID-19 vaccines have been developed as rapidly as possible, they must go
+                    through rigorous testing in clinical trials to prove that they meet internationally agreed
+                    benchmarks for safety and effectiveness. Only if they meet these standards can a vaccine receive
+                    validation from WHO and national regulatory agencies.
+                </p>
+            </div>
+            <div class="question">
+                <p>
+                    Q: Are any of these new COVID-19 variants more dangerous for children?
+                </p>
+                <p>
+                    A: Experts are continuing to monitor these variants around the world to better understand their
+                    impact, including on children. So far, the evidence doesn’t suggest that these variants are
+                    specifically targeting children, and severe illness in young people remains relatively rare. Parents
+                    should continue to encourage their children to take the same precautions as before to help prevent
+                    getting and spreading COVID-19.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
