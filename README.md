@@ -6,7 +6,7 @@ Simple single page website with the information regarding Crona Virus.
  HTML - CSS - JavaScript
  
  # Framework(s):
- BootStrap (CSS Framework)
+ No Frameworks
 
  # Plugin(s):
  Google Fonts
